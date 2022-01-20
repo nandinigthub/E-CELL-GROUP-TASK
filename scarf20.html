@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales direct page</title>
+</head>
+<style>
+    * {
+        margin: 20px 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: rgb(238, 228, 224);
+    }
+
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        align-content: flex-end;
+        justify-content: space-around;
+        padding-left: 100px;
+
+
+    }
+
+    .container div {
+        padding: 5px;
+        border: darkgrey;
+        border-width: 1px;
+        flex: 1 1 200px;
+    }
+
+    .box-1 {
+        flex: 1;
+     
+    }
+
+    .box-2 {
+        flex: 2;
+    }
+
+    .box-3 {
+        flex: 3;
+    }
+
+    .button {
+        background-color: rgba(65, 0, 43, 0.233);
+        padding: 5px;
+        border: 2px solid;
+        border-radius: 10px;
+        cursor: pointer;
+
+    }
+
+    .button:hover {
+        color: rgb(212, 0, 0);
+    }
+
+    .class {
+        align-content: center;
+    }
+
+    .review {
+        display: flex;
+        align-items: center;
+        align-content: flex-end;
+        flex-wrap: nowrap;
+        flex: 1 1 200px;
+        align-items: baseline;
+
+    }
+
+    .review div {
+        padding: 10px;
+        border: darkgrey;
+        border-width: 1px;
+        flex: 1 1 200px;
+    }
+
+    .first {
+        flex: 1;
+    }
+
+    .second {
+        flex: 1;
+    }
+
+    .third {
+        flex: 1;
+    }
+
+    
+</style>
+
+<body>
+
+    <div class="container">
+        <div class="box-1">
+            <h3>Brand:namp scarfs</h3>
+            <img src="img20.jpg">
+            <!-- <h3>Brand:namp scarfs</h3> -->
+
+        </div>
+        <div class="box-2">
+
+            <h1 style="text-transform: capitalize;text-decoration: underline;">namp socks</h1>
+            <h4>PRODUCT DETAILS:</h4>
+            <p><b>Material Composition</b></p>
+            <p>80% Wool and 20% fleece</p>
+            <p><b>Pattern</b></p>
+            <p>Solid</p>
+            <button class="button">ADD TO CART</button>
+        </div>
+        <div class="box-3">
+            <p><b>Care Instructions</b></p>
+            <p>Hand wash only</p>
+            <p><b>Material Type</b></p>
+            <P>Wool</P>
+            <p><b>Country of Production</b></p>
+            <p>India</p>
+            <P><B>New Price</B></P>
+            <p><del>Rs39.9</del>Rs29.9</p>
+            <button class="button">BUY NOW</button>
+
+
+        </div>
+    </div>
+    <h2 style="text-align: center;text-decoration: underline;">OUR CUSTOMER REVIEWS</h2>
+    <div class="review">
+
+        <div class="first">
+            <img src="https://bootdey.com/img/Content/avatar/avatar4.png">
+            <p>Very nice fabric,best quality,soft and comfortable product.</p>
+            <p style="text-align: center;"><b>by Manish Singh</b></p>
+        </div>
+        <div class="second">
+            <img src="https://bootdey.com/img/Content/avatar/avatar2.png">
+            <p>Fast delivery from NAMP,satisfied from the product.</p>
+            <p style="text-align: center;"><b>by Ankit Chouhan</b></p>
+        </div>
+        <div class="third">
+            <img src="https://bootdey.com/img/Content/avatar/avatar1.png">
+            <p>Very good products and service from NAMP.</p>
+            <p style="text-align: center;"><b> by Pranjal</b></p>
+        </div>
+    </div>
+
+</body>
+
+</html>

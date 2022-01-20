@@ -1,0 +1,393 @@
+*{
+    /* background-color: #eee4e0; */
+    margin: 0;
+    padding: 0;
+    /* background-color: #eee4e0; */
+    box-sizing: border-box;
+    /* color: #79706d; */
+    font-family: 'Baloo Tamma 2', cursive;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+/* login form css  */
+.container {
+    padding: 16px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Full-width input fields */
+  input[type=text], input[type=password] {
+    width: 50%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Overwrite default styles of hr */
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  /* Set a style for the submit button */
+  .registerbtn {
+    background-color: #cfb8bf;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .registerbtn:hover {
+    opacity: 1;
+  }
+  
+  /* Add a blue text color to links */
+  a {
+    color: dodgerblue;
+  }
+  
+  /* Set a grey background color and center the text of the "sign in" section */
+  .signin {
+    background-color: #f1f1f1;
+    text-align: center;
+  }
+/* header section  */
+.header{
+  background-color: #eee4e0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    padding:0%  10%;
+}
+.header-hat img{
+    height: 80px;
+    width: 100%;
+}
+.header-text img{
+    height: 80px;
+    width: 100%;
+  
+}
+
+/* nav section  */
+.nav{
+    background-color: #eee4e0;
+    display: flex;
+    width: 100%;
+    margin: auto;
+    padding:  0% 10%;
+    border-bottom: 2px solid #625f5e;
+}
+.login-sec a:hover{
+    color: #b97788;
+}
+.login-sec a{
+    color: #bda5ab;
+}
+.login-sec{
+    width: 10%;
+}
+.navbar{
+    width: 80%;
+}
+.navlinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-sec span:hover{
+    color:#b97788 ;
+}
+.navlinks a{
+  text-decoration: none;
+}
+.navlinks li:hover{
+ color:#b97788 ;
+}
+.navlinks li{
+    list-style: none;
+    color: #79706d;
+    margin: 0 34px;
+}
+.cart a{
+    width: 10%;
+    color: #cea2ad;
+   font-size: larger;
+}
+.cart a:hover{
+  
+    color: #ce8a9b;
+}
+@media (max-width:768px){
+  .header{
+    background-color: #eee4e0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding:0%  5%;
+}
+.header-hat img{
+    height: 50px;
+    width: auto;
+}
+.header-text img{
+    height: 50px;
+    width: 100%;
+  
+}
+
+/* nav section  */
+.nav{
+    background-color: #eee4e0;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin: auto;
+    padding:  0% 5%;
+    border-bottom: 2px solid #625f5e;
+}
+.login-sec a:hover{
+    color: #b97788;
+}
+.login-sec a{
+    color: #bda5ab;
+}
+.login-sec{
+    width: 24%;
+    align-self: flex-end;
+}
+.navbar{
+    width: 80%;
+}
+.navlinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-sec span:hover{
+    color:#b97788 ;
+}
+.navlinks a{
+  text-decoration: none;
+}
+.navlinks li:hover{
+ color:#b97788 ;
+}
+.navlinks li{
+    list-style: none;
+    color: #79706d;
+    margin: 0 10px;
+}
+.cart{
+  align-self: flex-end;
+}
+.cart a{
+    /* width: 10%; */
+    color: #cea2ad;
+   font-size: larger;
+}
+.cart a:hover{
+  
+    color: #ce8a9b;
+}
+
+}
+
+/* landing section  */
+.landing-section{
+  background-color: #eee4e0;
+    padding-top: 2rem;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.landing-box{
+    /* border: 2px solid #a5b07d; */
+    position: absolute;
+    top: 20rem;
+    right: 12rem;
+    background-color: #a5b07d;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+.landing-box a{
+text-decoration: none;
+list-style: none;
+color: #fff;
+}
+.landing-box a:hover{
+color: rgb(218, 183, 183);
+}
+#new-gif{
+    height: 100px;
+    width: 200px;
+}
+@media(max-width:768px){
+  .landing-section{
+   padding: 1rem 0;
+  display: flex;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.land-img img{
+  width: 300px;
+  height: auto;
+}
+
+.landing-box{
+    position: absolute;
+    top: 20rem;
+    right: 5rem;
+    background-color: #a5b07d;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.landing-box a{
+text-decoration: none;
+font-size: 14px;
+list-style: none;
+color: #fff;
+}
+.landing-box a:hover{
+color: rgb(218, 183, 183);
+}
+#new-gif{
+    height: 30px;
+    width: 50px;
+}
+
+
+}
+.sale-section{
+  background-color: #eee4e0;
+}
+
+ .sale-section-parts{
+  padding: 1rem 0 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+
+
+ }
+.sale-section-parts img {
+
+  width: 19.5rem;
+  height: 17rem;
+}
+.fav-section{
+  text-align: center;
+  font-size: 3rem;
+  background-color: #eee4e0;
+}
+
+/* slider */
+
+
+/* footer */
+
+footer{
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: 100vw;
+  font-family: "Open Sans";
+  padding-top: 40px;
+  color: rgb(0, 0, 0);
+}
+.footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-content h3{
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+.footer-content p{
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+}
+.socials{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+.socials li{
+  margin: 0 10px;
+}
+.socials a{
+  text-decoration: none;
+  color: #fff;
+}
+.socials a i{
+  font-size: 1.1rem;
+  transition: color .4s ease;
+
+}
+.socials a:hover i{
+  color: aqua;
+}
+
+.footer-bottom{
+  width: 100vw;
+  padding: 20px 0;
+  text-align: center;
+}
+.footer-bottom p{
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+.footer-bottom span{
+  text-transform: uppercase;
+  opacity: .4;
+  font-weight: 200;
+}
